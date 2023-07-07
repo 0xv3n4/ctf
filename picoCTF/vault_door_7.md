@@ -26,9 +26,11 @@ System.out.println(myBytes[i]^0x55);
 ![3](https://github.com/boranakova/ctf/assets/56170942/e09d2b26-5bcb-4921-ba57-921663446985)
 <br></br>
 
-> The only thing left we already do the process on past level called VaultDoor6. I searched a tool on web and found this site.
-> When I put my output to the website , the password of the next level shown down below.
+> The only thing left we already did the process on past level called VaultDoor6. I searched a conversion tool (decimal,binary,hex) on web.
+> When I put my output to the website i found previously, the password of the next level shown down below.
 
 <br></br>
 
 ![4](https://github.com/boranakova/ctf/assets/56170942/2d978a68-789d-4cd3-917b-36ce94ee259e)
+
+> Also don't forget to add picoCTF{ first 
