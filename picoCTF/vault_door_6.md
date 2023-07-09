@@ -1,6 +1,6 @@
 
 
-# PicoCTF \ VaultDoor7 \ Write-Up 
+# PicoCTF \ VaultDoor6 \ Write-Up 
 
 ## Description
 This vault uses an XOR encryption scheme.
