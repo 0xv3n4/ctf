@@ -19,8 +19,10 @@ apktool d three.apk --no-res
 > The editing the GetFlag() method will gave us a flag. Change from <b>nope</b> to <b>yep</b>
 
 ![3](https://github.com/boranakova/ctf/assets/56170942/a4ba9496-a358-4698-95e4-9a8d8dda3730)
-
-> After editing the apk file and certificates of a file must be signed and verified. So using uber-apk-signer tool by patrickfav will solve this problem.
+```sh
+apktool b four -o recompiled/recompiled_four.apk
+```
+> After editing and building, the apk file and certificates of a file must be signed and verified. So using uber-apk-signer tool by patrickfav will solve this problem.
 ```sh
 wget https://github.com/patrickfav/uber-apk-signer/releases/download/v1.3.0/uber-apk-signer-1.3.0.jar
 java -jar uber-apk-signer-1.3.0.jar --apks recompiled
